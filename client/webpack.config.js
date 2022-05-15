@@ -17,7 +17,6 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Contact Cards",
       }),
 
       // Injects our custom service worker
